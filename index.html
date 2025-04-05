@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghibli Survey Form 💬</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1 class="form-title">Ghibli Survey Form</h1>
+        <h1>Namaste Doston! 👋</h1>
+        <p class="description">
+            Thoda sa fun karte hain! Jaldi se kuch questions ka answer do aur apna swag dikhao! 😎
+        </p>
+
+        <form action="thankyou.html">
+            <!-- Greeting -->
+            <div class="form-group">
+                <label><strong>Sabse pehle, aap kaise Hello karte ho?</strong></label><br>
+                <label><input type="radio" name="greeting" value="Namaste ji"> 🙏 Namaste ji</label><br>
+                <label><input type="radio" name="greeting" value="Hello doston"> 👋 Hello doston</label><br>
+            </div>
+
+            <!-- Mood Check -->
+            <div class="form-group">
+                <label><strong>Kya haal chaal?</strong></label><br>
+                <label><input type="radio" name="mood" value="Badhiya"> 😃 Badhiya</label><br>
+                <label><input type="radio" name="mood" value="Behtareen"> 🔥 Behtareen</label><br>
+                <label><input type="radio" name="mood" value="Bakwas"> 😞 Bakwas</label><br>
+            </div>
+
+            <!-- Banda Count -->
+            <div class="form-group">
+                <label><strong>Kitne bande aa rahe ho? (Approx estimate daalo 😜)</strong></label><br>
+                <input type="number" name="bande" placeholder="Example: 4">
+            </div>
+
+            <!-- Stay Duration -->
+            <div class="form-group">
+                <label><strong>Kitne din ke liye rukoge?</strong></label><br>
+                <input type="text" name="days" placeholder="Jaise: 2 din, 3 din">
+            </div>
+
+            <!-- Travel Trouble -->
+            <div class="form-group">
+                <label><strong>Aane mein koi takleef to nahi hui?</strong></label><br>
+                <select name="travel">
+                    <option value="">Select</option>
+                    <option value="Bilkul nahi">🚗 Bilkul nahi</option>
+                    <option value="Thodi si">🛺 Thodi si</option>
+                    <option value="Bahut zyada">😩 Bahut zyada</option>
+                </select>
+            </div>
+
+            <!-- Food Preference -->
+            <div class="form-group">
+                <label><strong>Khane mein kya loge? (select multiple!)</strong></label><br>
+                <label><input type="checkbox" name="food" value="Shahi Paneer"> 🍛 Shahi Paneer</label><br>
+                <label><input type="checkbox" name="food" value="Dal Fry"> 🍲 Dal Fry</label><br>
+                <label><input type="checkbox" name="food" value="Naan"> 🫓 Naan</label><br>
+                <label><input type="checkbox" name="food" value="Rabdi"> 🍨 Rabdi</label><br>
+                <label><input type="checkbox" name="food" value="Mix Veg"> 🥗 Mix Veg</label><br>
+                <label><input type="checkbox" name="food" value="All of the above"> 🎉 All of the above (party time!)</label><br>
+            </div>
+
+            <!-- Add more food -->
+            <div class="form-group">
+                <label><strong>Apni pasand ka aur khana add karo (optional):</strong></label><br>
+                <input type="text" name="more_food" placeholder="Jaise: Chole Bhature">
+            </div>
+
+            <!-- Sab thik hai? -->
+            <div class="form-group">
+                <label><strong>Aur baki sab thik?</strong></label><br>
+                <label><input type="radio" name="sab_thik" value="Behtareen"> 👍 Behtareen</label><br>
+            </div>
+
+            <!-- Chips Feeling -->
+            <div class="form-group">
+                <label><strong>Cornato Cheese Chips kha ke kaisa feel hota hai? 🧀😋</strong></label><br>
+                <label><input type="radio" name="chips" value="Good"> Good</label><br>
+                <label><input type="radio" name="chips" value="Mashallah"> Mashallah</label><br>
+                <label><input type="radio" name="chips" value="Subhanallah"> Subhanallah</label><br>
+                <label><input type="radio" name="chips" value="Afreen"> Afreen</label><br>
+                <label><input type="radio" name="chips" value="Taj Mahal-level"> Taj Mahal-level satisfaction 😍</label><br>
+            </div>
+
+            <button type="submit" class="submit-btn">Bhejo! 🚀</button>
+        </form>
+    </div>
+</body>
+</html>

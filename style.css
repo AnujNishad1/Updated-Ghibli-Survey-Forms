@@ -1,0 +1,82 @@
+body {
+    background: #fff6e5;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px;
+    margin: 0;
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    max-width: 650px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ff7043;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #555;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f9f9f9;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.submit-btn {
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.form-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif; /* ya jo font tum use kar rahe ho */
+    color: #FF6600;
+}
+
+.submit-btn:hover {
+    background-color: #ff5722;
+}
